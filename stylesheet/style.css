@@ -1,0 +1,102 @@
+/* common css */
+:root {
+    --primary-color: #FF5400;
+    --max-width : 1200px;
+}
+body {
+    font-family: 'Mulish', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.section_container {
+    max-width: 1600px;
+    margin: auto;
+    padding: 5rem 1rem;
+}
+.nav_container {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-logo img {
+    max-width: 48px;
+}
+.nav-logo h2 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+.nav-logo span {
+    color: var(--primary-color);
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 44px;   
+}
+.link a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.link a:hover {
+    color: var(--primary-color);
+}
+/* menu bar ends */
+/* banner starts */
+#banner-bg {
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    max-width: 1600px;
+    margin: auto;
+}
+#banner-bg .banner-overlay {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+#banner-bg .banner-overlay .banner-text {
+    text-align: center;
+}
+#banner-bg .banner-overlay h1 {
+    padding-top: 100px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 64px;
+}
+#banner-bg .banner-overlay p {
+    padding-top: 24px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 48px;
+}
+#banner-bg .banner-overlay .banner-text .input-leble {
+    background: rgba(255, 255, 255, 0.30);
+}
+input {
+    padding: 16px 16px;
+    border-radius: 5px;
+    border: 0;
+}
+#banner-bg .banner-overlay .banner-text .input-leble .text1 {
+    padding: 16px 16px;
+    border-radius: 5px;
+    border: 0;
+}
