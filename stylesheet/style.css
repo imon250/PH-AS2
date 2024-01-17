@@ -148,7 +148,6 @@ button {
     border-radius: 5px;
 } 
 /* popular ends */
-
 /* choose section starts */
 #best-container {
     max-width: 1600px;
@@ -305,6 +304,7 @@ button {
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 #newsletter-container .news-text {
     border-radius: 16px;
@@ -357,6 +357,12 @@ button {
 .foot-logo p {
     padding-top: 20px;
     padding-bottom: 30px;
+}
+span {
+  color: var(--primary-color);
+}
+.fav-icons {
+  font-size: 30px;
 }
 
 
